@@ -1,24 +1,24 @@
 <template>
   <div id="app">
-    <start_ />
-    <!--<choose_01 />-->
-    <!--<menu_01 />-->
+<!--    <startPage />-->
+<!--    <choosePage />-->
+    <menuPage />
     <!--<frame1 />-->
   </div>
 </template>
 
 <script>
-import start_ from "./components/start_";
-//import choose_01 from "./components/choose_01";
-//import menu_01 from "./components/menu_01";
+// import startPage from "./components/startPage";
+// import choosePage from "@/components/choosePage";
+import menuPage from "./components/menuPage";
 //import frame1 from "./components/frame1";
 
 export default {
   name: 'App',
   components: {
-    start_
-    //choose_01
-    //menu_01
+    // startPage,
+    // choosePage,
+    menuPage,
     //frame1
   }
 }
