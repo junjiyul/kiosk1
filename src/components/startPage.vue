@@ -81,7 +81,7 @@
 }
 </script>
 
-<style>
+<style scoped>
 body{
   width: 1024px;
   height: 768px;
