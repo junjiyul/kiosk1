@@ -1,50 +1,50 @@
 <template>
     <body>
         <div class="center">
-            <div class="choose-m">
-                <div>
-                    <button class="menu-bt m-bt">
-                        <img alt="menu" class="ice" src="./coffee/콜드브루라떼.png" />
-                    </button><br><br>레몬 에이드<br><br>3,500원
-                </div>
-                <div>
-                    <button class="menu-bt m-bt">
-                        <img alt="menu" class="ice" src="./coffee/바닐라라떼(ICED).png" />
-                    </button><br><br>자몽 에이드<br><br>3,500원
-                </div>
-                <div>
-                    <button class="menu-bt m-bt">
-                        <img alt="menu" class="ice" src="./coffee/콜드브루라떼.png" />
-                    </button><br><br>자몽 히비스커스 에이드<br><br>3,900원
-                </div>
-                <div>
-                    <button class="menu-bt m-bt">
-                        <img alt="menu" class="hot" src="./coffee/바닐라라떼(HOT).png" />
-                    </button><br><br>청포도 에이드<br><br>3,800원
-                </div>
-            </div>
-            <div class="choose-m">
-                <div>
-                    <button class="menu-bt m-bt">
-                        <img alt="menu" class="ice" src="./coffee/아인슈페너(ICED).png" />
-                    </button><br><br>자두 에이드<br><br>3,800원
-                </div>
-                <div>
-                    <button class="menu-bt m-bt">
-                        <img alt="menu" class="ice" src="./coffee/아인슈페너(ICED).png" />
-                    </button><br><br>자몽 주스<br><br>3,900원
-                </div>
-                <div>
-                    <button class="menu-bt m-bt">
-                        <img alt="menu" class="ice" src="./coffee/아인슈페너(ICED).png" />
-                    </button><br><br>키위 주스<br><br>3,900원
-                </div>
-                <div>
-                    <button class="menu-bt m-bt">
-                        <img alt="menu" class="ice" src="./coffee/아인슈페너(ICED).png" />
-                    </button><br><br>홍시 주스<br><br>4,000원
-                </div>
-            </div>
+<!--            <div class="choose-m">-->
+<!--                <div>-->
+<!--                    <button class="menu-bt m-bt">-->
+<!--                        <img alt="menu" class="ice" src="./coffee/콜드브루라떼.png" />-->
+<!--                    </button><br><br>레몬 에이드<br><br>3,500원-->
+<!--                </div>-->
+<!--                <div>-->
+<!--                    <button class="menu-bt m-bt">-->
+<!--                        <img alt="menu" class="ice" src="./coffee/바닐라라떼(ICED).png" />-->
+<!--                    </button><br><br>자몽 에이드<br><br>3,500원-->
+<!--                </div>-->
+<!--                <div>-->
+<!--                    <button class="menu-bt m-bt">-->
+<!--                        <img alt="menu" class="ice" src="./coffee/콜드브루라떼.png" />-->
+<!--                    </button><br><br>자몽 히비스커스 에이드<br><br>3,900원-->
+<!--                </div>-->
+<!--                <div>-->
+<!--                    <button class="menu-bt m-bt">-->
+<!--                        <img alt="menu" class="hot" src="./coffee/바닐라라떼(HOT).png" />-->
+<!--                    </button><br><br>청포도 에이드<br><br>3,800원-->
+<!--                </div>-->
+<!--            </div>-->
+<!--            <div class="choose-m">-->
+<!--                <div>-->
+<!--                    <button class="menu-bt m-bt">-->
+<!--                        <img alt="menu" class="ice" src="./coffee/아인슈페너(ICED).png" />-->
+<!--                    </button><br><br>자두 에이드<br><br>3,800원-->
+<!--                </div>-->
+<!--                <div>-->
+<!--                    <button class="menu-bt m-bt">-->
+<!--                        <img alt="menu" class="ice" src="./coffee/아인슈페너(ICED).png" />-->
+<!--                    </button><br><br>자몽 주스<br><br>3,900원-->
+<!--                </div>-->
+<!--                <div>-->
+<!--                    <button class="menu-bt m-bt">-->
+<!--                        <img alt="menu" class="ice" src="./coffee/아인슈페너(ICED).png" />-->
+<!--                    </button><br><br>키위 주스<br><br>3,900원-->
+<!--                </div>-->
+<!--                <div>-->
+<!--                    <button class="menu-bt m-bt">-->
+<!--                        <img alt="menu" class="ice" src="./coffee/아인슈페너(ICED).png" />-->
+<!--                    </button><br><br>홍시 주스<br><br>4,000원-->
+<!--                </div>-->
+<!--            </div>-->
         </div>
     </body>
 </template>

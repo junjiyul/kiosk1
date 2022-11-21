@@ -1,48 +1,48 @@
 <template>
-    <body>
-        <div class="left">
-            <button class="l-triangle"></button>
-        </div>
-        <div class="center">
-            <div class="choose-m">
-                <div >
-                    <button class="menu-bt m-bt">
-                        <img alt="menu" class="ice" src="./coffee/콜드브루.png" />
-                    </button><br><br>흑당 버블티(ICED ONLY)<br><br>3,500원
-                </div>
-                <div>
-                    <button class="menu-bt m-bt">
-                        <img alt="menu" class="ice" src="./coffee/콜드브루라떼.png" />
-                    </button><br><br>녹차 프라푸치노<br><br>3,900원
-                </div>
-                <div>
-                    <button class="menu-bt m-bt">
-                        <img alt="menu" class="ice" src="./coffee/바닐라라떼(ICED).png" />
-                    </button><br><br>초코칩 프라푸치노<br><br>3,900원
-                </div>
-                <div>
-                    <button class="menu-bt m-bt">
-                        <img alt="menu" class="hot" src="./coffee/바닐라라떼(HOT).png" />
-                    </button><br><br>딸기 젤라또 프라푸치노<br><br>4,300원
-                </div>
-            </div>
-            <div class="choose-m">
-                <div>
-                    <button class="menu-bt m-bt">
-                        <img alt="menu" class="hot" src="./coffee/카푸치노(HOT).png" />
-                    </button><br><br>초코 젤라또 프라푸치노<br><br>4,300원
-                </div>
-                <div>
-                    <button class="menu-bt m-bt">
-                        <img alt="menu" class="ice" src="./coffee/아인슈페너(ICED).png" />
-                    </button><br><br>요거트 프라푸치노<br><br>3,500원
-                </div>
-            </div>
-        </div>
-        <div class="right">
-            <button class="r-triangle"></button>
-        </div>
-    </body>
+<!--    <body>-->
+<!--        <div class="left">-->
+<!--            <button class="l-triangle"></button>-->
+<!--        </div>-->
+<!--        <div class="center">-->
+<!--            <div class="choose-m">-->
+<!--                <div >-->
+<!--                    <button class="menu-bt m-bt">-->
+<!--                        <img alt="menu" class="ice" src="./coffee/콜드브루.png" />-->
+<!--                    </button><br><br>흑당 버블티(ICED ONLY)<br><br>3,500원-->
+<!--                </div>-->
+<!--                <div>-->
+<!--                    <button class="menu-bt m-bt">-->
+<!--                        <img alt="menu" class="ice" src="./coffee/콜드브루라떼.png" />-->
+<!--                    </button><br><br>녹차 프라푸치노<br><br>3,900원-->
+<!--                </div>-->
+<!--                <div>-->
+<!--                    <button class="menu-bt m-bt">-->
+<!--                        <img alt="menu" class="ice" src="./coffee/바닐라라떼(ICED).png" />-->
+<!--                    </button><br><br>초코칩 프라푸치노<br><br>3,900원-->
+<!--                </div>-->
+<!--                <div>-->
+<!--                    <button class="menu-bt m-bt">-->
+<!--                        <img alt="menu" class="hot" src="./coffee/바닐라라떼(HOT).png" />-->
+<!--                    </button><br><br>딸기 젤라또 프라푸치노<br><br>4,300원-->
+<!--                </div>-->
+<!--            </div>-->
+<!--            <div class="choose-m">-->
+<!--                <div>-->
+<!--                    <button class="menu-bt m-bt">-->
+<!--                        <img alt="menu" class="hot" src="./coffee/카푸치노(HOT).png" />-->
+<!--                    </button><br><br>초코 젤라또 프라푸치노<br><br>4,300원-->
+<!--                </div>-->
+<!--                <div>-->
+<!--                    <button class="menu-bt m-bt">-->
+<!--                        <img alt="menu" class="ice" src="./coffee/아인슈페너(ICED).png" />-->
+<!--                    </button><br><br>요거트 프라푸치노<br><br>3,500원-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--        <div class="right">-->
+<!--            <button class="r-triangle"></button>-->
+<!--        </div>-->
+<!--    </body>-->
 </template>
 
 <script>

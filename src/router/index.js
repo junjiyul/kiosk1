@@ -13,10 +13,10 @@ const routes = [
     component: () => import('../components/startPage.vue'),
   },
   {
-    path: '/adeFrame',
-    name: 'adeFrame',
-    component:() => import('../components/adeFrame.vue')
-  }
+    path: '/startExPage',
+    name: 'startExPage',
+    component:() => import('../components/startExPage.vue')
+  },
 ];
 
 const router = createRouter({

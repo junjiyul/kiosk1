@@ -1,52 +1,52 @@
 <template>
-    <body>
-        <div class="center">
-            <div class="choose-m">
-                <div>
-                    <button class="menu-bt m-bt">
-                        <img alt="menu" class="ice" src="./coffee/콜드브루라떼.png" />
-                    </button><br><br>오레오 스모어 쿠키<br><br>3,800원
-                </div>
-                <div>
-                    <button class="menu-bt m-bt">
-                        <img alt="menu" class="ice" src="./coffee/바닐라라떼(ICED).png" />
-                    </button><br><br>비스코프 스모어 쿠키<br><br>3,500원
-                </div>
-                <div>
-                    <button class="menu-bt m-bt">
-                        <img alt="menu" class="ice" src="./coffee/콜드브루라떼.png" />
-                    </button><br><br>소금빵<br><br>3,800원
-                </div>
-                <div>
-                    <button class="menu-bt m-bt">
-                        <img alt="menu" class="hot" src="./coffee/바닐라라떼(HOT).png" />
-                    </button><br><br>인절미 크로플<br><br>3,500원
-                </div>
-            </div>
-            <div class="choose-m">
-                <div>
-                    <button class="menu-bt m-bt">
-                        <img alt="menu" class="ice" src="./coffee/아인슈페너(ICED).png" />
-                    </button><br><br>스콘<br><br>3,500원
-                </div>
-                <div>
-                    <button class="menu-bt m-bt">
-                        <img alt="menu" class="ice" src="./coffee/아인슈페너(ICED).png" />
-                    </button><br><br>마카롱<br><br>3,500원
-                </div>
-                <div>
-                    <button class="menu-bt m-bt">
-                        <img alt="menu" class="ice" src="./coffee/아인슈페너(ICED).png" />
-                    </button><br><br>마들렌<br><br>3,500원
-                </div>
-                <div>
-                    <button class="menu-bt m-bt">
-                        <img alt="menu" class="ice" src="./coffee/아인슈페너(ICED).png" />
-                    </button><br><br>에그타르트<br><br>3,500원
-                </div>
-            </div>
-        </div>
-    </body>
+<!--    <body>-->
+<!--        <div class="center">-->
+<!--            <div class="choose-m">-->
+<!--                <div>-->
+<!--                    <button class="menu-bt m-bt">-->
+<!--                        <img alt="menu" class="ice" src="./coffee/콜드브루라떼.png" />-->
+<!--                    </button><br><br>오레오 스모어 쿠키<br><br>3,800원-->
+<!--                </div>-->
+<!--                <div>-->
+<!--                    <button class="menu-bt m-bt">-->
+<!--                        <img alt="menu" class="ice" src="./coffee/바닐라라떼(ICED).png" />-->
+<!--                    </button><br><br>비스코프 스모어 쿠키<br><br>3,500원-->
+<!--                </div>-->
+<!--                <div>-->
+<!--                    <button class="menu-bt m-bt">-->
+<!--                        <img alt="menu" class="ice" src="./coffee/콜드브루라떼.png" />-->
+<!--                    </button><br><br>소금빵<br><br>3,800원-->
+<!--                </div>-->
+<!--                <div>-->
+<!--                    <button class="menu-bt m-bt">-->
+<!--                        <img alt="menu" class="hot" src="./coffee/바닐라라떼(HOT).png" />-->
+<!--                    </button><br><br>인절미 크로플<br><br>3,500원-->
+<!--                </div>-->
+<!--            </div>-->
+<!--            <div class="choose-m">-->
+<!--                <div>-->
+<!--                    <button class="menu-bt m-bt">-->
+<!--                        <img alt="menu" class="ice" src="./coffee/아인슈페너(ICED).png" />-->
+<!--                    </button><br><br>스콘<br><br>3,500원-->
+<!--                </div>-->
+<!--                <div>-->
+<!--                    <button class="menu-bt m-bt">-->
+<!--                        <img alt="menu" class="ice" src="./coffee/아인슈페너(ICED).png" />-->
+<!--                    </button><br><br>마카롱<br><br>3,500원-->
+<!--                </div>-->
+<!--                <div>-->
+<!--                    <button class="menu-bt m-bt">-->
+<!--                        <img alt="menu" class="ice" src="./coffee/아인슈페너(ICED).png" />-->
+<!--                    </button><br><br>마들렌<br><br>3,500원-->
+<!--                </div>-->
+<!--                <div>-->
+<!--                    <button class="menu-bt m-bt">-->
+<!--                        <img alt="menu" class="ice" src="./coffee/아인슈페너(ICED).png" />-->
+<!--                    </button><br><br>에그타르트<br><br>3,500원-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </body>-->
 </template>
 
 <script>

@@ -4,13 +4,13 @@
       <h1>식사하실 장소를 선택해 주세요</h1>
       <div class="choose1">
         <button class="li-bt w-bt">
-          <img alt="menu" src="./pic/icon2.png" />
+          <img alt="menu" src="./pic/icon6.png" />
         </button>
         <br><br>포장
       </div>
       <div class="choose2">
         <button class="li-bt w-bt">
-          <img alt="menu" src="./pic/icon4.png" />
+          <img alt="menu" src="./pic/icon7.png" />
         </button>
         <br><br>매장에서 식사
       </div>
@@ -41,7 +41,7 @@ body {
 }
 h1{
   margin-top: 8%;
-  font-size: 18pt;
+  font-size: 30pt;
   float: center;
 }
 /*버튼*/
@@ -74,7 +74,7 @@ h1{
   color: #ffffff;
 }
 img {
-  width: 150px;
-  height: 150px;
+  width: 200px;
+  height: 200px;
 }
 </style>
