@@ -26,7 +26,7 @@
             <div class="menu">
                 <ul>
                     <li >
-                        <a> 커피(COFFEE) </a>
+                        <a @click="goToX('/choosePage')"> 커피(COFFEE) </a>
                     </li>
                     <li >
                         <a> 음료(NON COFFEE) </a>
@@ -48,6 +48,7 @@
         </nav>
         <div class="framebox">
             <iframe class="show" frameborder="0"></iframe>
+
         </div>
         <div class="basket">
           <div class="basket-fir"></div>
@@ -79,10 +80,18 @@
 <script>
 
 
+import router from "@/router";
+
 export default {
   name: 'App',
   data(){
+    var goToX = function goToX(v) {
+      v ? router.push(v) : window.alert("준비중입니다.")
+    }
+
+
     return{
+      goToX,
     }
   },
   components: {

@@ -1,3 +1,19 @@
+<script>
+
+export default {
+  name: 'App',
+  data(){
+    return{
+    }
+  },
+  methods: {
+
+  },
+  components: {
+  }
+}
+</script>
+
 <template>
 <body>    
   <div class="left">
@@ -63,23 +79,7 @@
 </body>  
 </template>
  
-<script>
 
-  export default {
-  name: 'App',
-  data(){
-    return{
-    }
-  },
-  methods: {
-  pagelink: function() {
-    this.$router.push("/choose_01");
-    }
-  },
-  components: {
-  }
-}
-</script>
 
 <style scoped>
 body{

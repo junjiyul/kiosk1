@@ -1,28 +1,24 @@
-<template>
-  <div id="app">
-<!--    <startPage />-->
-<!--    <choosePage />-->
-    <menuPage />
-    <!--<frame1 />-->
-  </div>
-</template>
-
 <script>
-// import startPage from "./components/startPage";
-// import choosePage from "@/components/choosePage";
-import menuPage from "./components/menuPage";
-//import frame1 from "./components/frame1";
+import { useRoute } from 'vue-router';
 
 export default {
   name: 'App',
-  components: {
-    // startPage,
-    // choosePage,
-    menuPage,
-    //frame1
+  components: {},
+  setup()
+  {
+    useRoute();
   }
-}
+,
+};
 </script>
+
+<template>
+<!--  <div id="nav">-->
+<!--    <router-link to="/">Home</router-link>-->
+<!--    <router-link to="/about">About</router-link>-->
+<!--  </div>-->
+  <router-view />
+</template>
 
 <style>
 #app {
