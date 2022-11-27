@@ -20,5 +20,5 @@ export default {
 </template>
 
 <style lang="scss">
-@import "/dist/css/app";
+@import "/src/assets/css/app.scss";
 </style>
