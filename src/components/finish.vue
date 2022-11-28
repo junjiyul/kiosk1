@@ -1,34 +1,33 @@
 <template>
-<body>
-  <h1>
-    결제가 완료되었습니다.
-    <br>카운터에서 제품을 수령해 주세요.
-  </h1>
-</body>  
+  <div>
+    <h1>
+      결제가 완료되었습니다.
+      <br />카운터에서 제품을 수령해 주세요.
+    </h1>
+  </div>
 </template>
- 
-<script>
 
-  export default {
-  name: 'App',
-  data(){
-    return{
-    }
+<script>
+export default {
+  name: "App",
+  data() {
+    return {};
   },
-  components: {
-  }
-}
+  components: {},
+};
 </script>
 
 <style scoped>
-body {
+div {
   width: 1280px;
+  height: 800px;
   margin: 0px;
-  margin-top: 0%;
-  padding: 155px 0;
+  line-height: 150px;
+  background: #a3a1a1;
 }
 h1 {
-  float: center;
-  font-size: 24pt;
+  text-align: center;
+  font-size: 30pt;
+  margin: 0px;
 }
 </style>

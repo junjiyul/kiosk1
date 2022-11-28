@@ -1,58 +1,58 @@
 <template>
-<!--    <body>-->
-<!--        <div class="left">-->
-<!--            <button class="l-triangle"></button>-->
-<!--        </div>-->
-<!--        <div class="center">-->
-<!--            <div class="choose-m">-->
-<!--                <div >-->
-<!--                    <button class="menu-bt m-bt">-->
-<!--                        <img alt="menu" class="ice" src="./coffee/아메리카노(ICED).png" />-->
-<!--                    </button><br><br>아메리카노(ICED)<br><br>1,500원-->
-<!--                </div>-->
-<!--                <div>-->
-<!--                    <button class="menu-bt m-bt">-->
-<!--                        <img alt="menu" class="hot" src="./coffee/아메리카노(HOT).png" />-->
-<!--                    </button><br><br>아메리카노(HOT)<br><br>1,500원-->
-<!--                </div>-->
-<!--                <div>-->
-<!--                    <button class="menu-bt m-bt">-->
-<!--                        <img alt="menu" class="ice" src="./coffee/카페라떼(ICED).png" />-->
-<!--                    </button><br><br>카페라떼(ICED)<br><br>2,700원-->
-<!--                </div>-->
-<!--                <div>-->
-<!--                    <button class="menu-bt m-bt">-->
-<!--                        <img alt="menu" class="hot" src="./coffee/카페라떼(HOT).png" />-->
-<!--                    </button><br><br>카페라떼(HOT)<br><br>2,700원-->
-<!--                </div>-->
-<!--            </div>-->
-<!--            <div class="choose-m"> -->
-<!--                <div>-->
-<!--                    <button class="menu-bt m-bt">-->
-<!--                        <img alt="menu" class="ice-w" src="./coffee/카페모카(ICED).png" />-->
-<!--                    </button><br><br>카페모카(ICED)<br><br>3,500원-->
-<!--                </div>-->
-<!--                <div>-->
-<!--                    <button class="menu-bt m-bt">-->
-<!--                        <img alt="menu" class="hot-w" src="./coffee/카페모카(HOT).png" />-->
-<!--                    </button><br><br>카페모카(HOT)<br><br>3,500원-->
-<!--                </div>-->
-<!--                <div>-->
-<!--                    <button class="menu-bt m-bt">-->
-<!--                        <img alt="menu" class="ice" src="./coffee/카라멜마끼아또(ICED).png" />-->
-<!--                    </button><br><br>카라멜마끼아또(ICED)<br><br>3,500원-->
-<!--                </div>-->
-<!--                <div>-->
-<!--                    <button class="menu-bt m-bt">-->
-<!--                        <img alt="menu" class="hot" src="./coffee/카라멜마끼아또(HOT).png" />-->
-<!--                    </button><br><br>카라멜마끼아또(HOT)<br><br>3,500원-->
-<!--                </div>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--        <div class="right">-->
-<!--            <button class="r-triangle"></button>-->
-<!--        </div>-->
-<!--    </body>-->
+  <body>
+  <div class="left">
+    <button class="l-triangle"></button>
+  </div>
+  <div class="center">
+    <div class="choose-m">
+      <div >
+        <button class="menu-bt m-bt">
+          <img alt="menu" class="ice" src="./pic/coffee/아메리카노(ICED).png" />
+        </button><br><br>아메리카노(ICED)<br><br>1,500원
+      </div>
+      <div>
+        <button class="menu-bt m-bt">
+          <img alt="menu" class="hot" src="./pic/coffee/아메리카노(HOT).png" />
+        </button><br><br>아메리카노(HOT)<br><br>1,500원
+      </div>
+      <div>
+        <button class="menu-bt m-bt">
+          <img alt="menu" class="ice" src="./pic/coffee/카페라떼(ICED).png" />
+        </button><br><br>카페라떼(ICED)<br><br>2,700원
+      </div>
+      <div>
+        <button class="menu-bt m-bt">
+          <img alt="menu" class="hot" src="./pic/coffee/카페라떼(HOT).png" />
+        </button><br><br>카페라떼(HOT)<br><br>2,700원
+      </div>
+    </div>
+    <div class="choose-m">
+      <div>
+        <button class="menu-bt m-bt">
+          <img alt="menu" class="ice-w" src="./pic/coffee/카페모카(ICED).png" />
+        </button><br><br>카페모카(ICED)<br><br>3,500원
+      </div>
+      <div>
+        <button class="menu-bt m-bt">
+          <img alt="menu" class="hot-w" src="./pic/coffee/카페모카(HOT).png" />
+        </button><br><br>카페모카(HOT)<br><br>3,500원
+      </div>
+      <div>
+        <button class="menu-bt m-bt">
+          <img alt="menu" class="ice" src="./pic/coffee/카라멜마끼아또(ICED).png" />
+        </button><br><br>카라멜마끼아또(ICED)<br><br>3,500원
+      </div>
+      <div>
+        <button class="menu-bt m-bt">
+          <img alt="menu" class="hot" src="./pic/coffee/카라멜마끼아또(HOT).png" />
+        </button><br><br>카라멜마끼아또(HOT)<br><br>3,500원
+      </div>
+    </div>
+  </div>
+  <div class="right">
+    <button class="r-triangle"></button>
+  </div>
+  </body>
 </template>
 
 <script>
@@ -69,121 +69,121 @@ export default {
 
 <style scoped>
 body {
-    width: 1280px;
-    height: 800px;
-    margin: 0px auto;
-    float: left;
+  width: 1280px;
+  height: 800px;
+  margin: 0px auto;
+  float: left;
 }
 div {
-    float: left;
-    font-size: 19pt;
+  float: left;
+  font-size: 19pt;
 }
 div.left {
-    width: 6%;
-    height: 800px;
-    float: left;
-    box-sizing: border-box;
-    background: none;
+  width: 6%;
+  height: 800px;
+  float: left;
+  box-sizing: border-box;
+  background: none;
 }
 
 div.center {
-    width: 88%;
-    height: 800px;
-    float: left;
-    box-sizing: border-box;
-    background: none;
+  width: 88%;
+  height: 800px;
+  float: left;
+  box-sizing: border-box;
+  background: none;
 }
 
 div.right {
-    width: 6%;
-    height: 800px;
-    float: left;
-    box-sizing: border-box;
-    background: none;
-    margin-left: 0%;
+  width: 6%;
+  height: 800px;
+  float: left;
+  box-sizing: border-box;
+  background: none;
+  margin-left: 0%;
 }
 div.choose-m {
-    float: center;
-    margin-left: 0%;
+  float: center;
+  margin-left: 0%;
 }
 
 /*메뉴 버튼*/
 .menu-bt{
-    position: relative;
-    padding: 3px 3px;
-    border-radius: 30px;
-    box-shadow: 0 15px 35px rbga(0, 0, 0, 0.2);
-    transition: 0.25s;
-    width: 180px;
-    height: 180px;
-    margin-left: 55px;
-    margin-top: 75px;
-    margin-right: 45px;
-    background: none;
+  position: relative;
+  padding: 3px 3px;
+  border-radius: 30px;
+  box-shadow: 0 15px 35px rbga(0, 0, 0, 0.2);
+  transition: 0.25s;
+  width: 180px;
+  height: 180px;
+  margin-left: 55px;
+  margin-top: 75px;
+  margin-right: 45px;
+  background: none;
 }
 .menu-bt:hover{
-    letter-spacing: 2px;
-    transform: scale(1.2);
-    cursor: pointer;
+  letter-spacing: 2px;
+  transform: scale(1.2);
+  cursor: pointer;
 }
 .m-bt {
-    border: 2px solid #a3a1a1;
-    color: #ffffff;
+  border: 2px solid #a3a1a1;
+  color: #ffffff;
 }
 
 /*이미지*/
 img.ice {
-    width: 80px;
-    height: 150px;
-    float: center;
+  width: 80px;
+  height: 150px;
+  float: center;
 }
 img.hot {
-    width: 130px;
-    height: 130px;
-    float: center;
+  width: 130px;
+  height: 130px;
+  float: center;
 }
 img.ice-w {
-    width: 80px;
-    height: 160px;
-    float: center;
+  width: 80px;
+  height: 160px;
+  float: center;
 }
 img.hot-w {
-    width: 120px;
-    height: 150px;
-    float: center;
+  width: 120px;
+  height: 150px;
+  float: center;
 }
 
 /*페이지 버튼*/
 .l-triangle {
-    width: 30px;
-    height: 30px;
-    float: left;
-    background: none;
-    border-right: 60px solid #6f6f6e;
-    border-top: 40px solid transparent;
-    border-bottom: 40px solid transparent;
-    margin-top: 450%;
+  width: 30px;
+  height: 30px;
+  float: left;
+  background: none;
+  border-right: 60px solid #6f6f6e;
+  border-top: 40px solid transparent;
+  border-bottom: 40px solid transparent;
+  margin-top: 450%;
 }
 .l-triangle:hover {
-    letter-spacing: 2px;
-    transform: scale(1.2);
-    cursor: pointer;
+  letter-spacing: 2px;
+  transform: scale(1.2);
+  cursor: pointer;
 }
 .r-triangle {
-    width: 30px;
-    height: 30px;
-    float: left;
-    background: none;
-    border-left: 60px solid #6f6f6e;
-    border-top: 40px solid transparent;
-    border-bottom: 40px solid transparent;
-    margin-left: 5%;
-    margin-top: 450%;
+  width: 30px;
+  height: 30px;
+  float: left;
+  background: none;
+  border-left: 60px solid #6f6f6e;
+  border-top: 40px solid transparent;
+  border-bottom: 40px solid transparent;
+  margin-left: 5%;
+  margin-top: 450%;
 }
 
 .r-triangle:hover {
-    letter-spacing: 2px;
-    transform: scale(1.2);
-    cursor: pointer;
+  letter-spacing: 2px;
+  transform: scale(1.2);
+  cursor: pointer;
 }
 </style>
