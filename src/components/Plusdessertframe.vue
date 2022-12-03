@@ -4,44 +4,44 @@
             <div class="choose-m">
                 <div>
                     <button class="menu-bt m-bt">
-                        <img alt="menu" class="mac" src="./dessert/오레오마카롱.png" />
+                        <img alt="menu" class="mac" src="./pic/dessert/오레오마카롱.png" />
                     </button><br>오레오마카롱<br>3,800원
                 </div>
                 <div>
                     <button class="menu-bt m-bt">
-                        <img alt="menu" class="cro" src="./dessert/플레인크로플.png" />
+                        <img alt="menu" class="cro" src="./pic/dessert/플레인크로플.png" />
                     </button><br>플레인크로플<br>3,500원
                 </div>
                 <div>
                     <button class="menu-bt m-bt">
-                        <img alt="menu" class="muffin" src="./dessert/블루베리머핀.png" />
+                        <img alt="menu" class="muffin" src="./pic/dessert/블루베리머핀.png" />
                     </button><br>블루베리머핀<br>3,800원
                 </div>
                 <div>
                     <button class="menu-bt m-bt">
-                        <img alt="menu" class="muffin" src="./dessert/초코머핀.png" />
+                        <img alt="menu" class="muffin" src="./pic/dessert/초코머핀.png" />
                     </button><br>초코머핀<br>3,500원
                 </div>
             </div>
             <div class="choose-m">
                 <div>
                     <button class="menu-bt m-bt">
-                        <img alt="menu" class="ti" src="./dessert/티라미수.png" />
+                        <img alt="menu" class="ti" src="./pic/dessert/티라미수.png" />
                     </button><br>티라미수<br>3,500원
                 </div>
                 <div>
                     <button class="menu-bt m-bt">
-                        <img alt="menu" class="cake" src="./dessert/치즈케이크.png" />
+                        <img alt="menu" class="cake" src="./pic/dessert/치즈케이크.png" />
                     </button><br>치즈케이크<br>3,500원
                 </div>
                 <div>
                     <button class="menu-bt m-bt">
-                        <img alt="menu" class="cake" src="./dessert/초코무스케이크.png" />
+                        <img alt="menu" class="cake" src="./pic/dessert/초코무스케이크.png" />
                     </button><br>초코무스케이크<br>3,500원
                 </div>
                 <div>
                     <button class="menu-bt m-bt">
-                        <img alt="menu" class="cake" src="./dessert/고구마케이크.png" />
+                        <img alt="menu" class="cake" src="./pic/dessert/고구마케이크.png" />
                     </button><br>고구마케이크<br>3,500원
                 </div>
             </div>

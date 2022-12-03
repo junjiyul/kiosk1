@@ -7,12 +7,12 @@
       <div class="choose-m">
         <div>
           <button class="menu-bt m-bt">
-            <img alt="menu" class="hot-sd" src="./tea/페퍼민트.png" /></button
+            <img alt="menu" class="hot-sd" src="./pic/tea/페퍼민트.png" /></button
           ><br />페퍼민트<br />(HOT)<br />2,000원
         </div>
         <div>
           <button class="menu-bt m-bt">
-            <img alt="menu" class="hot" src="./tea/머스캣블렌드.png" /></button
+            <img alt="menu" class="hot" src="./pic/tea/머스캣블렌드.png" /></button
           ><br />머스캣블렌드<br />(HOT)<br />3,500원
         </div>
         <div>
@@ -20,7 +20,7 @@
             <img
               alt="menu"
               class="hot"
-              src="./tea/레몬사과블렌드.png"
+              src="./pic/tea/레몬사과블렌드.png"
             /></button
           ><br />레몬사과블렌드<br />(HOT)<br />3,500원
         </div>
@@ -29,7 +29,7 @@
             <img
               alt="menu"
               class="hot"
-              src="./tea/히비스커스블렌드.png"
+              src="./pic/tea/히비스커스블렌드.png"
             /></button
           ><br />히비스커스블렌드<br />(HOT)<br />3,500원
         </div>
@@ -37,22 +37,22 @@
       <div class="choose-m">
         <div>
           <button class="menu-bt m-bt">
-            <img alt="menu" class="hot" src="./tea/아쌈.png" /></button
+            <img alt="menu" class="hot" src="./pic/tea/아쌈.png" /></button
           ><br />아쌈<br />(HOT)<br />2,000원
         </div>
         <div>
           <button class="menu-bt m-bt">
-            <img alt="menu" class="hot-sd" src="./tea/얼그레이.png" /></button
+            <img alt="menu" class="hot-sd" src="./pic/tea/얼그레이.png" /></button
           ><br />얼그레이<br />(HOT)<br />2,000원
         </div>
         <div>
           <button class="menu-bt m-bt">
-            <img alt="menu" class="hot-sd" src="./tea/자몽.png" /></button
+            <img alt="menu" class="hot-sd" src="./pic/tea/자몽.png" /></button
           ><br />자몽차<br />(HOT)<br />3,500원
         </div>
         <div>
           <button class="menu-bt m-bt">
-            <img alt="menu" class="hot-sd" src="./tea/유자차.png" /></button
+            <img alt="menu" class="hot-sd" src="./pic/tea/유자차.png" /></button
           ><br />유자차<br />(HOT)<br />3,500원
         </div>
       </div>

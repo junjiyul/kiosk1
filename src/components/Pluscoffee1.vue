@@ -7,44 +7,44 @@
             <div class="choose-m">
                 <div >
                     <button class="menu-bt m-bt">
-                        <img alt="menu" class="ice" src="./coffee/아메리카노(ICED).png" />
+                        <img alt="menu" class="ice" src="./pic/coffee/아메리카노(ICED).png" />
                     </button><br>아메리카노<br />(ICED)<br>1,500원
                 </div>
                 <div>
                     <button class="menu-bt m-bt">
-                        <img alt="menu" class="hot" src="./coffee/아메리카노(HOT).png" />
+                        <img alt="menu" class="hot" src="./pic/coffee/아메리카노(HOT).png" />
                     </button><br>아메리카노<br />(HOT)<br>1,500원
                 </div>
                 <div>
                     <button class="menu-bt m-bt">
-                        <img alt="menu" class="ice" src="./coffee/카페라떼(ICED).png" />
+                        <img alt="menu" class="ice" src="./pic/coffee/카페라떼(ICED).png" />
                     </button><br>카페라떼<br />(ICED)<br>2,700원
                 </div>
                 <div>
                     <button class="menu-bt m-bt">
-                        <img alt="menu" class="hot" src="./coffee/카페라떼(HOT).png" />
+                        <img alt="menu" class="hot" src="./pic/coffee/카페라떼(HOT).png" />
                     </button><br>카페라떼<br />(HOT)<br>2,700원
                 </div>
             </div>
             <div class="choose-m"> 
                 <div>
                     <button class="menu-bt m-bt">
-                        <img alt="menu" class="ice-w" src="./coffee/카페모카(ICED).png" />
+                        <img alt="menu" class="ice-w" src="./pic/coffee/카페모카(ICED).png" />
                     </button><br>카페모카<br />(ICED)<br>3,500원
                 </div>
                 <div>
                     <button class="menu-bt m-bt">
-                        <img alt="menu" class="hot-w" src="./coffee/카페모카(HOT).png" />
+                        <img alt="menu" class="hot-w" src="./pic/coffee/카페모카(HOT).png" />
                     </button><br>카페모카<br />(HOT)<br>3,500원
                 </div>
                 <div>
                     <button class="menu-bt m-bt">
-                        <img alt="menu" class="ice" src="./coffee/카라멜마끼아또(ICED).png" />
+                        <img alt="menu" class="ice" src="./pic/coffee/카라멜마끼아또(ICED).png" />
                     </button><br>카라멜마끼아또<br />(ICED)<br>3,500원
                 </div>
                 <div>
                     <button class="menu-bt m-bt">
-                        <img alt="menu" class="hot" src="./coffee/카라멜마끼아또(HOT).png" />
+                        <img alt="menu" class="hot" src="./pic/coffee/카라멜마끼아또(HOT).png" />
                     </button><br>카라멜마끼아또<br />(HOT)<br>3,500원
                 </div>
             </div>

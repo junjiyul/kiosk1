@@ -7,39 +7,39 @@
             <div class="choose-m">
                 <div >
                     <button class="menu-bt m-bt">
-                        <img alt="menu" class="ice-brew" src="./coffee/콜드브루.png" />
+                        <img alt="menu" class="ice-brew" src="./pic/coffee/콜드브루.png" />
                     </button><br>콜드브루<br>3,300원
                 </div>
                 <div>
                     <button class="menu-bt m-bt">
-                        <img alt="menu" class="ice-brew" src="./coffee/콜드브루라떼.png" />
+                        <img alt="menu" class="ice-brew" src="./pic/coffee/콜드브루라떼.png" />
                     </button><br>콜드브루라떼<br>3,800원
                 </div>
                 <div>
                     <button class="menu-bt m-bt">
-                        <img alt="menu" class="ice" src="./coffee/바닐라라떼(ICED).png" />
+                        <img alt="menu" class="ice" src="./pic/coffee/바닐라라떼(ICED).png" />
                     </button><br>바닐라라떼<br />(ICED)<br>3,500원
                 </div>
                 <div>
                     <button class="menu-bt m-bt">
-                        <img alt="menu" class="hot" src="./coffee/바닐라라떼(HOT).png" />
+                        <img alt="menu" class="hot" src="./pic/coffee/바닐라라떼(HOT).png" />
                     </button><br>바닐라라떼<br />(HOT)<br>3,500원
                 </div>
             </div>
             <div class="choose-m">
                 <div>
                     <button class="menu-bt m-bt">
-                        <img alt="menu" class="cappu" src="./coffee/카푸치노(HOT).png" />
+                        <img alt="menu" class="cappu" src="./pic/coffee/카푸치노(HOT).png" />
                     </button><br>카푸치노<br />(HOT)<br>3,500원
                 </div>
                 <div>
                     <button class="menu-bt m-bt">
-                        <img alt="menu" class="ice" src="./coffee/아인슈페너(ICED).png" />
+                        <img alt="menu" class="ice" src="./pic/coffee/아인슈페너(ICED).png" />
                     </button><br>아인슈페너<br />(ICED)<br>3,500원
                 </div>
                 <div>
                     <button class="menu-bt m-bt">
-                        <img alt="menu" class="hot" src="./coffee/아인슈페너(HOT).png" />
+                        <img alt="menu" class="hot" src="./pic/coffee/아인슈페너(HOT).png" />
                     </button><br>아인슈페너<br />(HOT)<br>3,500원
                 </div>
             </div>

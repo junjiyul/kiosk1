@@ -10,7 +10,7 @@
             <img
               alt="menu"
               class="ice"
-              src="./drink/녹차라떼(ICED).png"
+              src="./pic/drink/녹차라떼(ICED).png"
             /></button
           ><br />녹차라떼<br />(ICED)<br />3,500원
         </div>
@@ -19,7 +19,7 @@
             <img
               alt="menu"
               class="hot"
-              src="./drink/녹차라떼(HOT).png"
+              src="./pic/drink/녹차라떼(HOT).png"
             /></button
           ><br />녹차라떼<br />(HOT)<br />3,500원
         </div>
@@ -28,7 +28,7 @@
             <img
               alt="menu"
               class="ice"
-              src="./drink/오곡라떼(ICED).png"
+              src="./pic/drink/오곡라떼(ICED).png"
             /></button
           ><br />오곡라떼<br />(ICED)<br />3,300원
         </div>
@@ -37,7 +37,7 @@
             <img
               alt="menu"
               class="hot"
-              src="./drink/오곡라떼(HOT).png"
+              src="./pic/drink/오곡라떼(HOT).png"
             /></button
           ><br />오곡라떼<br />(HOT)<br />3,300원
         </div>
@@ -48,7 +48,7 @@
             <img
               alt="menu"
               class="ice"
-              src="./drink/고구마라떼(ICED).png"
+              src="./pic/drink/고구마라떼(ICED).png"
             /></button
           ><br />고구마라떼<br />(ICED)<br />3,500원
         </div>
@@ -57,7 +57,7 @@
             <img
               alt="menu"
               class="hot"
-              src="./drink/고구마라떼(HOT).png"
+              src="./pic/drink/고구마라떼(HOT).png"
             /></button
           ><br />고구마라떼<br />(HOT)<br />3,500원
         </div>
@@ -66,13 +66,13 @@
             <img
               alt="menu"
               class="ice"
-              src="./drink/블랙밀크버블티.png"
+              src="./pic/drink/블랙밀크버블티.png"
             /></button
           ><br />블랙밀크버블티<br />3,800원
         </div>
         <div>
           <button class="menu-bt m-bt">
-            <img alt="menu" class="ice" src="./drink/타로버블티.png" /></button
+            <img alt="menu" class="ice" src="./pic/drink/타로버블티.png" /></button
           ><br />타로버블티<br />3,800원
         </div>
       </div>

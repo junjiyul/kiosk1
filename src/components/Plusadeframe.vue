@@ -3,12 +3,12 @@
     <div class="choose-m">
       <div>
         <button class="menu-bt m-bt">
-          <img alt="menu" class="ice" src="./ade/레몬에이드.png" /></button
+          <img alt="menu" class="ice" src="./pic/ade/레몬에이드.png" /></button
         ><br />레몬에이드<br />3,500원
       </div>
       <div>
         <button class="menu-bt m-bt">
-          <img alt="menu" class="ice" src="./ade/자몽에이드.png" /></button
+          <img alt="menu" class="ice" src="./pic/ade/자몽에이드.png" /></button
         ><br />자몽에이드<br />3,500원
       </div>
       <div>
@@ -16,13 +16,13 @@
           <img
             alt="menu"
             class="ice-tp"
-            src="./ade/자몽히비스커스에이드.png"
+            src="./pic/ade/자몽히비스커스에이드.png"
           /></button
         ><br />자몽히비스커스에이드<br />3,900원
       </div>
       <div>
         <button class="menu-bt m-bt">
-          <img alt="menu" class="ice" src="./ade/청포도에이드.png" /></button
+          <img alt="menu" class="ice" src="./pic/ade/청포도에이드.png" /></button
         ><br />청포도에이드<br />3,800원
       </div>
     </div>
@@ -30,22 +30,22 @@
     <div class="choose-m">
       <div>
         <button class="menu-bt2 m-bt">
-          <img alt="menu" class="ice-tp" src="./ade/자두에이드.png" /></button
+          <img alt="menu" class="ice-tp" src="./pic/ade/자두에이드.png" /></button
         ><br />자두에이드<br />3,800원
       </div>
       <div>
         <button class="menu-bt2 m-bt">
-          <img alt="menu" class="ice" src="./ade/자몽주스.png" /></button
+          <img alt="menu" class="ice" src="./pic/ade/자몽주스.png" /></button
         ><br />자몽주스<br />3,900원
       </div>
       <div>
         <button class="menu-bt2 m-bt">
-          <img alt="menu" class="ice" src="./ade/키위주스.png" /></button
+          <img alt="menu" class="ice" src="./pic/ade/키위주스.png" /></button
         ><br />키위주스<br />3,900원
       </div>
       <div>
         <button class="menu-bt2 m-bt">
-          <img alt="menu" class="ice" src="./ade/홍시주스.png" /></button
+          <img alt="menu" class="ice" src="./pic/ade/홍시주스.png" /></button
         ><br />홍시주스<br />4,000원
       </div>
     </div>

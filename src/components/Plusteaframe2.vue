@@ -7,17 +7,17 @@
       <div class="choose-m">
         <div>
           <button class="menu-bt m-bt">
-            <img alt="menu" class="hot" src="./tea/국화.png" /></button
+            <img alt="menu" class="hot" src="./pic/tea/국화.png" /></button
           ><br />국화차<br />(HOT)<br />2,000원
         </div>
         <div>
           <button class="menu-bt m-bt">
-            <img alt="menu" class="hot" src="./tea/감잎.png" /></button
+            <img alt="menu" class="hot" src="./pic/tea/감잎.png" /></button
           ><br />감잎차<br />(HOT)<br />2,000원
         </div>
         <div>
           <button class="menu-bt m-bt">
-            <img alt="menu" class="hot-sd" src="./tea/캐모마일.png" /></button
+            <img alt="menu" class="hot-sd" src="./pic/tea/캐모마일.png" /></button
           ><br />캐모마일<br />2,000원
         </div>
         <div>
@@ -25,7 +25,7 @@
             <img
               alt="menu"
               class="hot-tp"
-              src="./tea/애플시나몬(HOT).png"
+              src="./pic/tea/애플시나몬(HOT).png"
             /></button
           ><br />애플시나몬<br />(HOT)<br />3,500원
         </div>
@@ -36,13 +36,13 @@
             <img
               alt="menu"
               class="ice"
-              src="./tea/애플시나몬(ICED).png"
+              src="./pic/tea/애플시나몬(ICED).png"
             /></button
           ><br />애플시나몬<br />(ICED)<br />3,500원
         </div>
         <div>
           <button class="menu-bt m-bt">
-            <img alt="menu" class="ice" src="./tea/아이스티.png" /></button
+            <img alt="menu" class="ice" src="./pic/tea/아이스티.png" /></button
           ><br />아이스티<br />3,000원
         </div>
       </div>

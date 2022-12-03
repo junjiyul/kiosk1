@@ -7,7 +7,7 @@
       <div class="choose-m">
         <div>
           <button class="menu-bt m-bt">
-            <img alt="menu" class="ice" src="./drink/흑당버블티.png" /></button
+            <img alt="menu" class="ice" src="./pic/drink/흑당버블티.png" /></button
           ><br />흑당버블티<br />(ICED ONLY)<br />3,500원
         </div>
         <div>
@@ -15,7 +15,7 @@
             <img
               alt="menu"
               class="ice-w"
-              src="./drink/녹차프라푸치노.png"
+              src="./pic/drink/녹차프라푸치노.png"
             /></button
           ><br />녹차프라푸치노<br />3,900원
         </div>
@@ -24,7 +24,7 @@
             <img
               alt="menu"
               class="ice-w"
-              src="./drink/초코칩프라푸치노.png"
+              src="./pic/drink/초코칩프라푸치노.png"
             /></button
           ><br />초코칩프라푸치노<br />3,900원
         </div>
@@ -36,7 +36,7 @@
             <img
               alt="menu"
               class="ice-w"
-              src="./drink/딸기젤라또프라푸치노.png"
+              src="./pic/drink/딸기젤라또프라푸치노.png"
             /></button
           ><br />딸기프라푸치노<br />4,300원
         </div>
@@ -45,7 +45,7 @@
             <img
               alt="menu"
               class="ice-w"
-              src="./drink/초코젤라또프라푸치노.png"
+              src="./pic/drink/초코젤라또프라푸치노.png"
             /></button
           ><br />초코프라푸치노<br />4,300원
         </div>
@@ -54,7 +54,7 @@
             <img
               alt="menu"
               class="ice"
-              src="./drink/요거트프라푸치노.png"
+              src="./pic/drink/요거트프라푸치노.png"
             /></button
           ><br />요거트프라푸치노<br />3,500원
         </div>
