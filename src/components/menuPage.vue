@@ -34,9 +34,6 @@
                     <li >
                         <a> 주스/에이드(JUICE/ADE) </a>
                     </li>
-                    <!--<li >
-                        <a> 스무디/쉐이크(BLENDED) </a>
-                    </li>-->
                     <li >
                         <a> 차(TEA) </a>
                     </li>
@@ -146,7 +143,7 @@ ul li {
     text-align: center;
 }
 .menu ul{
-    background-color: #FFE600;
+    background-color: #DDC79B;
     height: 50px;
     list-style: none;
     margin: 0;
@@ -159,7 +156,7 @@ ul li {
     margin-left: 5px;
 }
 .menu li a {
-    background-color: #FFE600;
+    background-color: #DDC79B;
     color: #000000;
     display: block;
     font-weight: normal;
@@ -170,7 +167,7 @@ ul li {
     text-decoration: none;
 }
 .menu li a:hover, .menu ul li:hover a{
-    background: #a3a1a1;
+    background: #95783F;
     color: #ffffff;
     text-decoration: none;
 }
