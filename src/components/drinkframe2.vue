@@ -1,67 +1,47 @@
 <template>
   <body>
-  <div class="left">
-    <button class="l-triangle"></button>
-  </div>
-  <div class="center">
-    <div class="choose-m">
-      <div>
-        <button class="menu-bt m-bt">
-          <img alt="menu" class="ice" src="./pic/drink/흑당버블티.png" /></button
-        ><br /><br />흑당 버블티(ICED ONLY)<br /><br />3,500원
+    <div class="left">
+      <button class="l-triangle"></button>
+    </div>
+    <div class="center">
+      <div class="choose-m">
+        <div>
+          <button class="menu-bt m-bt">
+            <img alt="menu" class="ice" src="./pic/drink/흑당버블티.png" /></button
+          ><br /><br />흑당버블티<br />(ICED ONLY)<br />3,500원
+        </div>
+        <div>
+          <button class="menu-bt m-bt">
+            <img alt="menu" class="ice-w" src="./pic/drink/녹차프라푸치노.png" /></button
+          ><br /><br />녹차프라푸치노<br />3,900원
+        </div>
+        <div>
+          <button class="menu-bt m-bt">
+            <img alt="menu" class="ice-w" src="./pic/drink/초코칩프라푸치노.png" /></button
+          ><br /><br />초코칩프라푸치노<br />3,900원
+        </div>
+        <div>
+          <button class="menu-bt m-bt">
+            <img alt="menu" class="ice-w" src="./pic/drink/딸기젤라또프라푸치노.png" /></button
+          ><br /><br />딸기프라푸치노<br />4,300원
+        </div>
       </div>
-      <div>
-        <button class="menu-bt m-bt">
-          <img
-              alt="menu"
-              class="ice-w"
-              src="./pic/drink/녹차프라푸치노.png"
-          /></button
-        ><br /><br />녹차 프라푸치노<br /><br />3,900원
-      </div>
-      <div>
-        <button class="menu-bt m-bt">
-          <img
-              alt="menu"
-              class="ice-w"
-              src="./pic/drink/초코칩프라푸치노.png"
-          /></button
-        ><br /><br />초코칩 프라푸치노<br /><br />3,900원
-      </div>
-      <div>
-        <button class="menu-bt m-bt">
-          <img
-              alt="menu"
-              class="ice-w"
-              src="./pic/drink/딸기젤라또프라푸치노.png"
-          /></button
-        ><br /><br />딸기 젤라또 프라푸치노<br /><br />4,300원
+      <div class="choose-m">
+        <div>
+          <button class="menu-bt m-bt">
+            <img alt="menu" class="ice-w" src="./pic/drink/초코젤라또프라푸치노.png" /></button
+          ><br /><br />초코프라푸치노<br />4,300원
+        </div>
+        <div>
+          <button class="menu-bt m-bt">
+            <img alt="menu" class="ice" src="./pic/drink/요거트프라푸치노.png" /></button
+          ><br /><br />요거트프라푸치노<br />3,500원
+        </div>
       </div>
     </div>
-    <div class="choose-m">
-      <div>
-        <button class="menu-bt m-bt">
-          <img
-              alt="menu"
-              class="ice-w"
-              src="./pic/drink/초코젤라또프라푸치노.png"
-          /></button
-        ><br /><br />초코 젤라또 프라푸치노<br /><br />4,300원
-      </div>
-      <div>
-        <button class="menu-bt m-bt">
-          <img
-              alt="menu"
-              class="ice"
-              src="./pic/drink/요거트프라푸치노.png"
-          /></button
-        ><br /><br />요거트 프라푸치노<br /><br />3,500원
-      </div>
+    <div class="right">
+      <button class="r-triangle"></button>
     </div>
-  </div>
-  <div class="right">
-    <button class="r-triangle"></button>
-  </div>
   </body>
 </template>
 
@@ -144,14 +124,13 @@ div.choose-m {
 
 /*이미지*/
 img.ice {
-  width: 80px;
-  height: 150px;
-  float: center;
+    width: 85px;
+    height: 155px;
+    float: center;
 }
-
 img.ice-w {
   width: 80px;
-  height: 160px;
+  height: 165px;
   float: center;
 }
 

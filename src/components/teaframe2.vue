@@ -1,55 +1,47 @@
 <template>
   <body>
-  <div class="left">
-    <button class="l-triangle"></button>
-  </div>
-  <div class="center">
-    <div class="choose-m">
-      <div>
-        <button class="menu-bt m-bt">
-          <img alt="menu" class="hot" src="./pic/tea/국화.png" /></button
-        ><br /><br />국화 차(HOT)<br /><br />2,000원
+    <div class="left">
+      <button class="l-triangle"></button>
+    </div>
+    <div class="center">
+      <div class="choose-m">
+        <div>
+          <button class="menu-bt m-bt">
+            <img alt="menu" class="hot" src="./pic/tea/국화.png" /></button
+          ><br /><br />국화차(HOT<br />2,000원
+        </div>
+        <div>
+          <button class="menu-bt m-bt">
+            <img alt="menu" class="hot" src="./pic/tea/감잎.png" /></button
+          ><br /><br />감잎차(HOT)<br />2,000원
+        </div>
+        <div>
+          <button class="menu-bt m-bt">
+            <img alt="menu" class="hot-sd" src="./pic/tea/캐모마일.png" /></button
+          ><br /><br />캐모마일(HOT)<br />2,000원
+        </div>
+        <div>
+          <button class="menu-bt m-bt">
+            <img alt="menu" class="hot-tp" src="./pic/tea/애플시나몬(HOT).png" /></button
+          ><br /><br />애플시나몬(HOT)<br />3,500원
+        </div>
       </div>
-      <div>
-        <button class="menu-bt m-bt">
-          <img alt="menu" class="hot" src="./pic/tea/감잎.png" /></button
-        ><br /><br />감잎 차(HOT)<br /><br />2,000원
-      </div>
-      <div>
-        <button class="menu-bt m-bt">
-          <img alt="menu" class="hot-sd" src="./pic/tea/캐모마일.png" /></button
-        ><br /><br />캐모마일<br /><br />2,000원
-      </div>
-      <div>
-        <button class="menu-bt m-bt">
-          <img
-              alt="menu"
-              class="hot-tp"
-              src="./pic/tea/애플시나몬(HOT).png"
-          /></button
-        ><br /><br />애플 시나몬(HOT)<br /><br />3,500원
+      <div class="choose-m">
+        <div>
+          <button class="menu-bt m-bt">
+            <img alt="menu" class="ice" src="./pic/tea/애플시나몬(ICED).png" /></button
+          ><br /><br />애플시나몬(ICED)<br />3,500원
+        </div>
+        <div>
+          <button class="menu-bt m-bt">
+            <img alt="menu" class="ice" src="./pic/tea/아이스티.png" /></button
+          ><br /><br />아이스티<br />3,000원
+        </div>
       </div>
     </div>
-    <div class="choose-m">
-      <div>
-        <button class="menu-bt m-bt">
-          <img
-              alt="menu"
-              class="ice"
-              src="./pic/tea/애플시나몬(ICED).png"
-          /></button
-        ><br /><br />애플 시나몬(ICED)<br /><br />3,500원
-      </div>
-      <div>
-        <button class="menu-bt m-bt">
-          <img alt="menu" class="ice" src="./pic/tea/아이스티.png" /></button
-        ><br /><br />아이스티<br /><br />3,000원
-      </div>
+    <div class="right">
+      <button class="r-triangle"></button>
     </div>
-  </div>
-  <div class="right">
-    <button class="r-triangle"></button>
-  </div>
   </body>
 </template>
 
@@ -134,22 +126,22 @@ div.choose-m {
 
 /*이미지*/
 img.ice {
-  width: 80px;
-  height: 150px;
+  width: 85px;
+  height: 155px;
   float: center;
 }
 img.hot {
-  width: 150px;
+  width: 155px;
   height: 120px;
   float: center;
 }
 img.hot-sd {
-  width: 150px;
+  width: 155px;
   height: 130px;
   float: center;
 }
 img.hot-tp {
-  width: 150px;
+  width: 155px;
   height: 135px;
   float: center;
 }

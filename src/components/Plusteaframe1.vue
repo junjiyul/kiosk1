@@ -17,20 +17,12 @@
         </div>
         <div>
           <button class="menu-bt m-bt">
-            <img
-              alt="menu"
-              class="hot"
-              src="./pic/tea/레몬사과블렌드.png"
-            /></button
+            <img alt="menu" class="hot" src="./pic/tea/레몬사과블렌드.png" /></button
           ><br />레몬사과블렌드<br />(HOT)<br />3,500원
         </div>
         <div>
           <button class="menu-bt m-bt">
-            <img
-              alt="menu"
-              class="hot"
-              src="./pic/tea/히비스커스블렌드.png"
-            /></button
+            <img alt="menu" class="hot" src="./pic/tea/히비스커스블렌드.png" /></button
           ><br />히비스커스블렌드<br />(HOT)<br />3,500원
         </div>
       </div>

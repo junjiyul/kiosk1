@@ -1,85 +1,58 @@
 <template>
   <body>
-  <div class="left">
-    <button class="l-triangle"></button>
-  </div>
-  <div class="center">
-    <div class="choose-m">
-      <div>
-        <button class="menu-bt m-bt">
-          <img
-              alt="menu"
-              class="ice"
-              src="./pic/drink/녹차라떼(ICED).png"
-          /></button
-        ><br /><br />녹차 라떼(ICED)<br /><br />3,500원
+    <div class="left">
+      <button class="l-triangle"></button>
+    </div>
+    <div class="center">
+      <div class="choose-m">
+        <div>
+          <button class="menu-bt m-bt">
+            <img alt="menu" class="ice" src="./pic/drink/녹차라떼(ICED).png"/></button
+          ><br /><br />녹차라떼(ICED)<br />3,500원
+        </div>
+        <div>
+          <button class="menu-bt m-bt">
+            <img alt="menu" class="hot" src="./pic/drink/녹차라떼(HOT).png" /></button
+          ><br /><br />녹차라떼(HOT)<br />3,500원
+        </div>
+        <div>
+          <button class="menu-bt m-bt">
+            <img alt="menu" class="ice" src="./pic/drink/오곡라떼(ICED).png" /></button
+          ><br /><br />오곡라떼(ICED)<br />3,300원
+        </div>
+        <div>
+          <button class="menu-bt m-bt">
+            <img alt="menu" class="hot" src="./pic/drink/오곡라떼(HOT).png" /></button
+          ><br /><br />오곡라떼(HOT)<br />3,300원
+        </div>
       </div>
-      <div>
-        <button class="menu-bt m-bt">
-          <img
-              alt="menu"
-              class="hot"
-              src="./pic/drink/녹차라떼(HOT).png"
-          /></button
-        ><br /><br />녹차 라떼(HOT)<br /><br />3,500원
-      </div>
-      <div>
-        <button class="menu-bt m-bt">
-          <img
-              alt="menu"
-              class="ice"
-              src="./pic/drink/오곡라떼(ICED).png"
-          /></button
-        ><br /><br />오곡 라떼(ICED)<br /><br />3,300원
-      </div>
-      <div>
-        <button class="menu-bt m-bt">
-          <img
-              alt="menu"
-              class="hot"
-              src="./pic/drink/오곡라떼(HOT).png"
-          /></button
-        ><br /><br />오곡 라떼(HOT)<br /><br />3,300원
+      <div class="choose-m">
+        <div>
+          <button class="menu-bt m-bt">
+            <img
+              alt="menu" class="ice" src="./pic/drink/고구마라떼(ICED).png" /></button
+          ><br /><br />고구마라떼(ICED)<br />3,500원
+        </div>
+        <div>
+          <button class="menu-bt m-bt">
+            <img alt="menu" class="hot" src="./pic/drink/고구마라떼(HOT).png" /></button
+          ><br /><br />고구마라떼(HOT)<br />3,500원
+        </div>
+        <div>
+          <button class="menu-bt m-bt">
+            <img alt="menu" class="ice" src="./pic/drink/블랙밀크버블티.png" /></button
+          ><br /><br />블랙밀크버블티<br />3,800원
+        </div>
+        <div>
+          <button class="menu-bt m-bt">
+            <img alt="menu" class="ice" src="./pic/drink/타로버블티.png" /></button
+          ><br /><br />타로버블티<br />3,800원
+        </div>
       </div>
     </div>
-    <div class="choose-m">
-      <div>
-        <button class="menu-bt m-bt">
-          <img
-              alt="menu"
-              class="ice"
-              src="./pic/drink/고구마라떼(ICED).png"
-          /></button
-        ><br /><br />고구마 라떼(ICED)<br /><br />3,500원
-      </div>
-      <div>
-        <button class="menu-bt m-bt">
-          <img
-              alt="menu"
-              class="hot"
-              src="./pic/drink/고구마라떼(HOT).png"
-          /></button
-        ><br /><br />고구마 라떼(HOT)<br /><br />3,500원
-      </div>
-      <div>
-        <button class="menu-bt m-bt">
-          <img
-              alt="menu"
-              class="ice"
-              src="./pic/drink/블랙밀크버블티.png"
-          /></button
-        ><br /><br />블랙 밀크 버블티<br /><br />3,800원
-      </div>
-      <div>
-        <button class="menu-bt m-bt">
-          <img alt="menu" class="ice" src="./pic/drink/타로버블티.png" /></button
-        ><br /><br />타로 버블티<br /><br />3,800원
-      </div>
+    <div class="right">
+      <button class="r-triangle"></button>
     </div>
-  </div>
-  <div class="right">
-    <button class="r-triangle"></button>
-  </div>
   </body>
 </template>
 
@@ -162,15 +135,14 @@ div.choose-m {
 
 /*이미지*/
 img.ice {
-  width: 80px;
-  height: 150px;
-  float: center;
+    width: 85px;
+    height: 155px;
+    float: center;
 }
-
 img.hot {
-  width: 130px;
-  height: 130px;
-  float: center;
+    width: 140px;
+    height: 140px;
+    float: center;
 }
 
 /*페이지 버튼*/

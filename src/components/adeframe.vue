@@ -4,45 +4,44 @@
       <div>
         <button class="menu-bt m-bt">
           <img alt="menu" class="ice" src="./pic/ade/레몬에이드.png" /></button
-        ><br />레몬에이드<br />3,500원
+        ><br /><br />레몬에이드<br />3,500원
       </div>
       <div>
         <button class="menu-bt m-bt">
           <img alt="menu" class="ice" src="./pic/ade/자몽에이드.png" /></button
-        ><br />자몽에이드<br />3,500원
+        ><br /><br />자몽에이드<br />3,500원
       </div>
       <div>
         <button class="menu-bt m-bt">
           <img alt="menu" class="ice-tp" src="./pic/ade/자몽히비스커스에이드.png" /></button
-        ><br />자몽히비스커스에이드<br />3,900원
+        ><br /><br />자몽히비스커스에이드<br />3,900원
       </div>
       <div>
         <button class="menu-bt m-bt">
           <img alt="menu" class="ice" src="./pic/ade/청포도에이드.png" /></button
-        ><br />청포도에이드<br />3,800원
+        ><br /><br />청포도에이드<br />3,800원
       </div>
     </div>
-
     <div class="choose-m">
       <div>
-        <button class="menu-bt2 m-bt">
+        <button class="menu-bt m-bt">
           <img alt="menu" class="ice-tp" src="./pic/ade/자두에이드.png" /></button
-        ><br />자두에이드<br />3,800원
+        ><br /><br />자두에이드<br />3,800원
       </div>
       <div>
-        <button class="menu-bt2 m-bt">
+        <button class="menu-bt m-bt">
           <img alt="menu" class="ice" src="./pic/ade/자몽주스.png" /></button
-        ><br />자몽주스<br />3,900원
+        ><br /><br />자몽주스<br />3,900원
       </div>
       <div>
-        <button class="menu-bt2 m-bt">
+        <button class="menu-bt m-bt">
           <img alt="menu" class="ice" src="./pic/ade/키위주스.png" /></button
-        ><br />키위주스<br />3,900원
+        ><br /><br />키위주스<br />3,900원
       </div>
       <div>
-        <button class="menu-bt2 m-bt">
+        <button class="menu-bt m-bt">
           <img alt="menu" class="ice" src="./pic/ade/홍시주스.png" /></button
-        ><br />홍시주스<br />4,000원
+        ><br /><br />홍시주스<br />4,000원
       </div>
     </div>
   </div>
@@ -61,7 +60,7 @@ export default {
 <style scoped>
 div {
   float: left;
-  font-size: 25pt;
+  font-size: 19pt;
   background: none;
 }
 
@@ -77,7 +76,7 @@ div.center {
 
 div.choose-m {
   float: center;
-  margin-left: 2%;
+  margin-left: 5%;
 }
 
 /*메뉴 버튼*/
@@ -87,32 +86,14 @@ div.choose-m {
   border-radius: 30px;
   box-shadow: 0 15px 35px rbga(0, 0, 0, 0.2);
   transition: 0.25s;
-  width: 200px;
-  height: 200px;
-  margin-left: 50px;
-  margin-top: 70px;
-  margin-right: 35px;
-  background: none;
-}
-.menu-bt2 {
-  position: relative;
-  padding: 3px 3px;
-  border-radius: 30px;
-  box-shadow: 0 15px 35px rbga(0, 0, 0, 0.2);
-  transition: 0.25s;
-  width: 200px;
-  height: 200px;
-  margin-left: 60px;
-  margin-top: 70px;
-  margin-right: 40px;
+  width: 180px;
+  height: 180px;
+  margin-left: 55px;
+  margin-top: 75px;
+  margin-right: 45px;
   background: none;
 }
 .menu-bt:hover {
-  letter-spacing: 2px;
-  transform: scale(1.2);
-  cursor: pointer;
-}
-.menu-bt2:hover {
   letter-spacing: 2px;
   transform: scale(1.2);
   cursor: pointer;
@@ -124,13 +105,13 @@ div.choose-m {
 
 /*이미지*/
 img.ice {
-  width: 95px;
-  height: 175px;
+  width: 85px;
+  height: 155px;
   float: center;
 }
 img.ice-tp {
-  width: 90px;
-  height: 180px;
+  width: 85px;
+  height: 160px;
   float: center;
 }
 </style>

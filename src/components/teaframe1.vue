@@ -1,65 +1,57 @@
 <template>
   <body>
-  <div class="left">
-    <button class="l-triangle"></button>
-  </div>
-  <div class="center">
-    <div class="choose-m">
-      <div>
-        <button class="menu-bt m-bt">
-          <img alt="menu" class="hot-sd" src="./pic/tea/페퍼민트.png" /></button
-        ><br /><br />페퍼민트(HOT)<br /><br />2,000원
+    <div class="left">
+      <button class="l-triangle"></button>
+    </div>
+    <div class="center">
+      <div class="choose-m">
+        <div>
+          <button class="menu-bt m-bt">
+            <img alt="menu" class="hot-sd" src="./pic/tea/페퍼민트.png" /></button
+          ><br /><br />페퍼민트(HOT)<br />2,000원
+        </div>
+        <div>
+          <button class="menu-bt m-bt">
+            <img alt="menu" class="hot" src="./pic/tea/머스캣블렌드.png" /></button
+          ><br /><br />머스캣블렌드(HOT)<br />3,500원
+        </div>
+        <div>
+          <button class="menu-bt m-bt">
+            <img alt="menu" class="hot" src="./pic/tea/레몬사과블렌드.png" /></button
+          ><br /><br />레몬사과블렌드(HOT)<br />3,500원
+        </div>
+        <div>
+          <button class="menu-bt m-bt">
+            <img alt="menu" class="hot" src="./pic/tea/히비스커스블렌드.png" /></button
+          ><br /><br />히비스커스블렌드(HOT)<br />3,500원
+        </div>
       </div>
-      <div>
-        <button class="menu-bt m-bt">
-          <img alt="menu" class="hot" src="./pic/tea/머스캣블렌드.png" /></button
-        ><br /><br />머스캣 블렌드(HOT)<br /><br />3,500원
-      </div>
-      <div>
-        <button class="menu-bt m-bt">
-          <img
-              alt="menu"
-              class="hot"
-              src="./pic/tea/레몬사과블렌드.png"
-          /></button
-        ><br /><br />레몬 사과 블렌드(HOT)<br /><br />3,500원
-      </div>
-      <div>
-        <button class="menu-bt m-bt">
-          <img
-              alt="menu"
-              class="hot"
-              src="./pic/tea/히비스커스블렌드.png"
-          /></button
-        ><br /><br />히비스커스 블렌드(HOT)<br /><br />3,500원
+      <div class="choose-m">
+        <div>
+          <button class="menu-bt m-bt">
+            <img alt="menu" class="hot" src="./pic/tea/아쌈.png" /></button
+          ><br /><br />아쌈(HOT)<br />2,000원
+        </div>
+        <div>
+          <button class="menu-bt m-bt">
+            <img alt="menu" class="hot-sd" src="./pic/tea/얼그레이.png" /></button
+          ><br /><br />얼그레이(HOT)<br />2,000원
+        </div>
+        <div>
+          <button class="menu-bt m-bt">
+            <img alt="menu" class="hot-sd" src="./pic/tea/자몽.png" /></button
+          ><br /><br />자몽차(HOT)<br />3,500원
+        </div>
+        <div>
+          <button class="menu-bt m-bt">
+            <img alt="menu" class="hot-sd" src="./pic/tea/유자차.png" /></button
+          ><br /><br />유자차(HOT)<br />3,500원
+        </div>
       </div>
     </div>
-    <div class="choose-m">
-      <div>
-        <button class="menu-bt m-bt">
-          <img alt="menu" class="hot" src="./pic/tea/아쌈.png" /></button
-        ><br /><br />아쌈(HOT)<br /><br />2,000원
-      </div>
-      <div>
-        <button class="menu-bt m-bt">
-          <img alt="menu" class="hot-sd" src="./pic/tea/얼그레이.png" /></button
-        ><br /><br />얼그레이(HOT)<br /><br />2,000원
-      </div>
-      <div>
-        <button class="menu-bt m-bt">
-          <img alt="menu" class="hot-sd" src="./pic/tea/자몽.png" /></button
-        ><br /><br />자몽 차(HOT)<br /><br />3,500원
-      </div>
-      <div>
-        <button class="menu-bt m-bt">
-          <img alt="menu" class="hot-sd" src="./pic/tea/유자차.png" /></button
-        ><br /><br />유자 차(HOT)<br /><br />3,500원
-      </div>
+    <div class="right">
+      <button class="r-triangle"></button>
     </div>
-  </div>
-  <div class="right">
-    <button class="r-triangle"></button>
-  </div>
   </body>
 </template>
 
@@ -142,12 +134,12 @@ div.choose-m {
 
 /*이미지*/
 img.hot {
-  width: 150px;
+  width: 155px;
   height: 120px;
   float: center;
 }
 img.hot-sd {
-  width: 150px;
+  width: 155px;
   height: 130px;
   float: center;
 }
