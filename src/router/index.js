@@ -28,6 +28,11 @@ const routes = [
     component:() => import('../components/teaframe1.vue')
   },
   {
+    path: '/teaframe2',
+    name: 'teaFrame2',
+    component:() => import('../components/teaframe2.vue')
+  },
+  {
     path: '/adeframe',
     name: 'adeFreame',
     component:() => import('../components/adeframe.vue')
@@ -106,6 +111,51 @@ const routes = [
     path: '/PlusadeFrame',
     name: 'PlusadeFrame',
     component:() => import('../components/PlusadeFrame.vue')
+  },
+  {
+    path: '/Pluscoffee1',
+    name: 'PluscoFfee1',
+    component:() => import('../components/Pluscoffee1.vue')
+  },
+  {
+    path: '/Pluscoffee2',
+    name: 'PluscoFfee2',
+    component:() => import('../components/Pluscoffee2.vue')
+  },
+  {
+    path: '/Plusdrinkframe2',
+    name: 'PlusdrinkFrame2',
+    component:() => import('../components/Plusdrinkframe2.vue')
+  },
+  {
+    path: '/PlusdrinkFrame1',
+    name: 'PlusdrinkFrame1',
+    component:() => import('../components/PlusdrinkFrame1.vue')
+  },
+  {
+    path: '/PlusdessertFrame',
+    name: 'PlusdessertFrame',
+    component:() => import('../components/PlusdessertFrame.vue')
+  },
+  {
+    path: '/PlusmenuPage',
+    name: 'PlusmenuPage',
+    component:() => import('../components/PlusmenuPage.vue')
+  },
+  {
+    path: '/PlusteaFrame1',
+    name: 'PlusteaFrame1',
+    component:() => import('../components/PlusteaFrame1.vue')
+  },
+  {
+    path: '/PlusteaFrame2',
+    name: 'PlusteaFrame2',
+    component:() => import('../components/PlusteaFrame2.vue')
+  },
+  {
+    path: '/startExPage',
+    name: 'startExPage',
+    component:() => import('../components/startExPage.vue')
   },
 ];
 

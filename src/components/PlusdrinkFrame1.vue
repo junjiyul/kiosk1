@@ -57,7 +57,7 @@
 
 <script>
 export default {
-  name: "App",
+  name: "PlusdrinkFrame1",
   data() {
     return {};
   },

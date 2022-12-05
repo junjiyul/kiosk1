@@ -51,7 +51,7 @@
 
 <script>
 export default {
-  name: 'App',
+  name: 'PlusdessertFrame',
   data(){
     return{
     }

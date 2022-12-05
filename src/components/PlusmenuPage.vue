@@ -12,7 +12,7 @@
                     </td>
                     <td>
                       <form name="sform" action="https://search.google.com/search" method="get">
-                        <input name="q" type="search" placeholder="검색어를 입력해 주세요" class="input_txt">     
+                        <input name="q" type="search" placeholder="검색어를 입력해 주세요" class="input_txt">
                       </form>
                     </td>
                     <td>
@@ -101,7 +101,7 @@
 import router from "@/router";
 
 export default {
-  name: 'App',
+  name: 'PlusmenuPage',
   data(){
     var goToX = function goToX(v) {
       v ? router.push(v) : window.alert("준비중입니다.")
@@ -189,7 +189,7 @@ header {
 }
 table{
   width: 100%;
-  margin-left:auto; 
+  margin-left:auto;
   margin-right:auto;
 }
 td {

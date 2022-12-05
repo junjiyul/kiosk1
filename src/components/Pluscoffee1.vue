@@ -26,7 +26,7 @@
                     </button><br>카페라떼<br />(HOT)<br>2,700원
                 </div>
             </div>
-            <div class="choose-m"> 
+            <div class="choose-m">
                 <div>
                     <button class="menu-bt m-bt">
                         <img alt="menu" class="ice-w" src="./pic/coffee/카페모카(ICED).png" />
@@ -57,7 +57,7 @@
 
 <script>
 export default {
-  name: 'App',
+  name: 'PluscoFfee1',
   data(){
     return{
     }

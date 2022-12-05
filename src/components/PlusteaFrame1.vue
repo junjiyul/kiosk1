@@ -57,7 +57,7 @@
 
 <script>
 export default {
-  name: "App",
+  name: "PlusteaFrame1",
   data() {
     return {};
   },

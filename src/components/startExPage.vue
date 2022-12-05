@@ -35,13 +35,13 @@
 
       </div>
     </div>
-    
+
   </body>
 </template>
 
 <script>
 export default {
-  name: 'App',
+  name: 'startExPage',
   data(){
     return{
     }
@@ -117,12 +117,12 @@ img {
         position: relative;
         margin-right: -30px;
     }
- 
+
 .arrow.top, .arrow.bottom {
        width: 10px;
        height: 20px;
     }
- 
+
 .arrow.left, .arrow.right {
        width: 20px;
        height: 10px;
@@ -137,28 +137,28 @@ img {
        height: 0;
        border-style: solid;
     }
- 
+
 .arrow.top:after {
        top: -40px;
        left: -10px;
        border-width: 40px 35px;
        border-color: transparent transparent black transparent;
     }
- 
+
 .arrow.bottom:after {
        top: 20px;
        left: -10px;
        border-width: 20px 15px;
        border-color: black transparent transparent transparent;
     }
- 
+
 .arrow.left:after {
        top: -10px;
        left: -40px;
        border-width: 15px 20px;
        border-color: transparent black transparent transparent;
     }
- 
+
 .arrow.right:after {
        top: -10px;
        left: 20px;

@@ -52,7 +52,7 @@
 
 <script>
 export default {
-  name: 'App',
+  name: 'PluscoFfee2',
   data(){
     return{
     }
