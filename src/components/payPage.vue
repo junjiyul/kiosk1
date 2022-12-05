@@ -32,7 +32,7 @@
 
 <script>
 export default {
-  name: 'App',
+  name: 'payPage',
   data(){
     return{
     }

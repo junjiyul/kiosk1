@@ -49,7 +49,7 @@
 
 <script>
 export default {
-  name: "App",
+  name: "adeFrame",
   data() {
     return {};
   },

@@ -22,7 +22,7 @@
 
 <script>
 export default {
-  name: 'App',
+  name: 'choosePage',
   data(){
     return{
     }

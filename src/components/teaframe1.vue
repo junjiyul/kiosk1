@@ -57,7 +57,7 @@
 
 <script>
 export default {
-  name: "App",
+  name: "teaFrame1",
   data() {
     return {};
   },

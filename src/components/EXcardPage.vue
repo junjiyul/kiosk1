@@ -20,7 +20,7 @@
 
 <script>
 export default {
-  name: 'App',
+  name: 'EXcardPage',
   data(){
     return{
     }

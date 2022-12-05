@@ -50,7 +50,7 @@
 
 <script>
 export default {
-  name: "App",
+  name: "PlusadeFrame",
   data() {
     return {};
   },

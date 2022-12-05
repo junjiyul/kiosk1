@@ -7,45 +7,40 @@
             <div class="choose-m">
                 <div >
                     <button class="menu-bt m-bt">
-                        <img alt="menu" class="ice" src="./pic/coffee/아메리카노(ICED).png" />
-                    </button><br><br>아메리카노(ICED)<br>1,500원
+                        <img alt="menu" class="ice-brew" src="./pic/coffee/콜드브루.png" />
+                    </button><br><br>콜드브루<br>3,300원
                 </div>
                 <div>
                     <button class="menu-bt m-bt">
-                        <img alt="menu" class="hot" src="./pic/coffee/아메리카노(HOT).png" />
-                    </button><br><br>아메리카노(HOT)<br>1,500원
+                        <img alt="menu" class="ice-brew" src="./pic/coffee/콜드브루라떼.png" />
+                    </button><br><br>콜드브루라떼<br>3,800원
                 </div>
                 <div>
                     <button class="menu-bt m-bt">
-                        <img alt="menu" class="ice" src="./pic/coffee/카페라떼(ICED).png" />
-                    </button><br><br>카페라떼(ICED)<br>2,700원
+                        <img alt="menu" class="ice" src="./pic/coffee/바닐라라떼(ICED).png" />
+                    </button><br><br>바닐라라떼(ICED)<br>3,500원
                 </div>
                 <div>
                     <button class="menu-bt m-bt">
-                        <img alt="menu" class="hot" src="./pic/coffee/카페라떼(HOT).png" />
-                    </button><br><br>카페라떼(HOT)<br>2,700원
+                        <img alt="menu" class="hot" src="./pic/coffee/바닐라라떼(HOT).png" />
+                    </button><br><br>바닐라라떼(HOT)<br>3,500원
                 </div>
             </div>
-            <div class="choose-m"> 
+            <div class="choose-m">
                 <div>
                     <button class="menu-bt m-bt">
-                        <img alt="menu" class="ice-w" src="./pic/coffee/카페모카(ICED).png" />
-                    </button><br><br>카페모카(ICED)<br>3,500원
+                        <img alt="menu" class="cappu" src="./pic/coffee/카푸치노(HOT).png" />
+                    </button><br><br>카푸치노(HOT)<br>3,500원
                 </div>
                 <div>
                     <button class="menu-bt m-bt">
-                        <img alt="menu" class="hot-w" src="./pic/coffee/카페모카(HOT).png" />
-                    </button><br><br>카페모카(HOT)<br>3,500원
+                        <img alt="menu" class="ice" src="./pic/coffee/아인슈페너(ICED).png" />
+                    </button><br><br>아인슈페너(ICED)<br>3,500원
                 </div>
                 <div>
                     <button class="menu-bt m-bt">
-                        <img alt="menu" class="ice" src="./pic/coffee/카라멜마끼아또(ICED).png" />
-                    </button><br><br>카라멜마끼아또(ICED)<br>3,500원
-                </div>
-                <div>
-                    <button class="menu-bt m-bt">
-                        <img alt="menu" class="hot" src="./pic/coffee/카라멜마끼아또(HOT).png" />
-                    </button><br><br>카라멜마끼아또(HOT)<br>3,500원
+                        <img alt="menu" class="hot" src="./pic/coffee/아인슈페너(HOT).png" />
+                    </button><br><br>아인슈페너(HOT)<br>3,500원
                 </div>
             </div>
         </div>
@@ -57,7 +52,7 @@
 
 <script>
 export default {
-  name: 'App',
+  name: 'coFfee2',
   data(){
     return{
     }
@@ -74,10 +69,12 @@ body {
     margin: 0px auto;
     float: left;
 }
+
 div {
     float: left;
     font-size: 19pt;
 }
+
 div.left {
     width: 6%;
     height: 800px;
@@ -102,6 +99,7 @@ div.right {
     background: none;
     margin-left: 0%;
 }
+
 div.choose-m {
     float: center;
     margin-left: 0%;
@@ -137,20 +135,20 @@ img.ice {
     height: 155px;
     float: center;
 }
+img.ice-brew {
+  width: 70px;
+  height: 155px;
+  float: center;
+}
 img.hot {
     width: 140px;
     height: 140px;
     float: center;
 }
-img.ice-w {
-    width: 80px;
-    height: 160px;
-    float: center;
-}
-img.hot-w {
-    width: 120px;
-    height: 150px;
-    float: center;
+img.cappu {
+  width: 155px;
+  height: 120px;
+  float: center;
 }
 
 /*페이지 버튼*/
@@ -164,11 +162,13 @@ img.hot-w {
     border-bottom: 40px solid transparent;
     margin-top: 450%;
 }
+
 .l-triangle:hover {
     letter-spacing: 2px;
     transform: scale(1.2);
     cursor: pointer;
 }
+
 .r-triangle {
     width: 30px;
     height: 30px;

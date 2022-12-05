@@ -1,23 +1,20 @@
 <template>
   <div>
     <h1>
-      주문이 완료되었습니다.
-      <br />카운터에서 현금 결제를 해주세요.
+      결제가 완료되었습니다.
+      <br />카운터에서 제품을 수령해 주세요.
     </h1>
-  </div>  
+  </div>
 </template>
- 
-<script>
 
-  export default {
-  name: 'App',
-  data(){
-    return{
-    }
+<script>
+export default {
+  name: "finIsh",
+  data() {
+    return {};
   },
-  components: {
-  }
-}
+  components: {},
+};
 </script>
 
 <style scoped>
@@ -26,6 +23,7 @@ div {
   height: 800px;
   margin: 0px;
   line-height: 100px;
+  
 }
 h1 {
   padding-top: 280px;

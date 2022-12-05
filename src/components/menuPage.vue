@@ -101,7 +101,7 @@
 import router from "@/router";
 
 export default {
-  name: 'App',
+  name: 'menuPage',
   data(){
     var goToX = function goToX(v) {
       v ? router.push(v) : window.alert("준비중입니다.")

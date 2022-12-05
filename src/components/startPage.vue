@@ -1,23 +1,35 @@
 <script>
 
+
 export default {
-  name: 'App',
+  name: 'stratPage',
   data(){
+
     return{
+
     }
   },
   methods: {
+    goTo:function (v){
+      this.$router.push(v);
+    },
+
 
   },
   components: {
+
   }
 }
 </script>
 
-<template>
-<body>
-  <div class="left">
+<template >
+
+  <div class="left" @click="goTo('/startExPage')">
     <span>키오스크 이용안내</span>
+
+    <div class="nav">
+
+
     <div class="info1">
       <button class="st-bt u-bt">
         <img alt="menu" src="./pic/icon1.png" width="70" height="75"/>
@@ -57,6 +69,7 @@ export default {
     <br><br>
     카운터에서 제품을<br>수령해 주세요
     </div>
+    </div>
     <div class="right">
       <div class="hp1">
         <button class="help-bt c-bt">
@@ -77,7 +90,6 @@ export default {
   </div>
 
 
-</body>
 </template>
 
 

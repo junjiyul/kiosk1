@@ -20,7 +20,7 @@
 
 <script>
 export default {
-  name: 'App',
+  name: 'cardPage',
   data(){
     return{
     }
