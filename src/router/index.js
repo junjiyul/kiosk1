@@ -157,6 +157,16 @@ const routes = [
     name: 'startExPage',
     component:() => import('../components/startExPage.vue')
   },
+  {
+    path: '/tWo',
+    name: 'tWo',
+    component:() => import('../components/tWo.vue')
+  },
+  {
+    path: '/tWo2',
+    name: 'tWo2',
+    component:() => import('../components/tWo2.vue')
+  },
 ];
 
 const router = createRouter({

@@ -3,19 +3,19 @@
     <div>
       <h1>식사하실 장소를 선택해 주세요</h1>
       <div class="choose1">
-        <button class="li-bt w-bt">
+        <button class="li-bt w-bt" @click="goTo('/PlusmenuPage')">
           <img alt="menu" src="./pic/icon6.png" />
         </button>
         <br><br>포장
       </div>
-      <div class="choose2">
+      <div class="choose2" @click="goTo('/PlusmenuPage')">
         <button class="li-bt w-bt">
           <img alt="menu" src="./pic/icon7.png" />
         </button>
         <br><br>매장에서 식사
       </div>
     </div>
-    
+
   </body>
 </template>
 
@@ -23,8 +23,16 @@
 export default {
   name: 'EXchoosePage',
   data(){
+
     return{
     }
+  },
+  methods: {
+    goTo:function (v){
+      this.$router.push(v);
+    },
+
+
   },
   components: {
   }
@@ -37,9 +45,9 @@ body {
   margin: 0px auto;
 }
 h1{
-  margin-top: 2.5%;
+  margin-top: 8.5%;
   font-size: 60pt;
-  float: center;
+  text-align: center;
 }
 /*버튼*/
 .choose1, .choose2 {
@@ -47,9 +55,11 @@ h1{
   margin-top: 2%;
   margin-left: 10%;
   font-size: 15mm;
+  text-align: center;
 }
 .choose1 {
-  margin-left: 13%;
+ text-align: center;
+  margin-left: 24%;
 }
 .li-bt{
   position: relative;

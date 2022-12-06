@@ -26,7 +26,7 @@
         <br><br>신용·체크카드<br>(삼성페이) / 모바일 쿠폰
       </div>
     </div>
-    
+
   </body>
 </template>
 

@@ -28,6 +28,10 @@ body {
     left: 650px;
     width: 375px;
     font-size: 32px;
+    cursor: alias;
+  }
+  button {
+    position: absolute;
   }
 
   .info {
@@ -58,3 +62,5 @@ body {
   width: 20%;
   height: 100%;
 }
+
+

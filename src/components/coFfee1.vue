@@ -1,7 +1,7 @@
 <template>
     <body>
         <div class="left">
-            <button class="l-triangle"></button>
+<!--            <button class="l-triangle"></button>-->
         </div>
         <div class="center">
             <div class="choose-m">
@@ -26,7 +26,7 @@
                     </button><br><br>카페라떼(HOT)<br>2,700원
                 </div>
             </div>
-            <div class="choose-m"> 
+            <div class="choose-m">
                 <div>
                     <button class="menu-bt m-bt">
                         <img alt="menu" class="ice-w" src="./pic/coffee/카페모카(ICED).png" />
@@ -50,7 +50,7 @@
             </div>
         </div>
         <div class="right">
-            <button class="r-triangle"></button>
+            <button class="r-triangle" @click="goTo('/tWo')"></button>
         </div>
     </body>
 </template>
@@ -61,6 +61,13 @@ export default {
   data(){
     return{
     }
+  },
+  methods: {
+    goTo:function (v){
+      this.$router.push(v);
+    },
+
+
   },
   components: {
   }
@@ -75,6 +82,7 @@ body {
     float: left;
 }
 div {
+  text-align: center;
     float: left;
     font-size: 19pt;
 }

@@ -23,10 +23,12 @@ export default {
 </script>
 
 <template >
-<div class="main-info" @click="goTo('/coFfee1')">
+<div class="main-info" >
   <span>내린커피 키오스크 이용안내</span>
-  <p style="z-index: 5">아무곳이나 클릭해주세요!</p>
-  <button @click="goTo('/finishCash')">결제종료</button>
+  <p style="z-index: 5" @click="goTo('/EXchoosePage')">아무곳이나 클릭해주세요!</p>
+<!--  <p style="z-index: 5" @click="goTo('/PlusmenuPage')">포탈</p>-->
+<!--  <p style="z-index: 5" @click="goTo('/EXchoosePage')">포탈2</p>-->
+<!--  <button @click="goTo('/finishCash')">결제종료</button>-->
 <div class="info">
   <div class="info-sub">
   <img src="./pic/icon1.png" alt=""><span>1. 메뉴를 선택하세요 !</span>

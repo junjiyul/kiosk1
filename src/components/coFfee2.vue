@@ -1,7 +1,7 @@
 <template>
     <body>
         <div class="left">
-            <button class="l-triangle"></button>
+            <button class="l-triangle" @click="goTo('PlusmenuPage')"></button>
         </div>
         <div class="center">
             <div class="choose-m">
@@ -16,7 +16,7 @@
                     </button><br><br>콜드브루라떼<br>3,800원
                 </div>
                 <div>
-                    <button class="menu-bt m-bt">
+                    <button class="menu-bt m-bt" @click="goTo('/tWo2')">
                         <img alt="menu" class="ice" src="./pic/coffee/바닐라라떼(ICED).png" />
                     </button><br><br>바닐라라떼(ICED)<br>3,500원
                 </div>
@@ -45,7 +45,7 @@
             </div>
         </div>
         <div class="right">
-            <button class="r-triangle"></button>
+<!--            <button class="r-triangle"></button>-->
         </div>
     </body>
 </template>
@@ -56,6 +56,13 @@ export default {
   data(){
     return{
     }
+  },
+  methods: {
+    goTo:function (v){
+      this.$router.push(v);
+    },
+
+
   },
   components: {
   }
@@ -71,6 +78,7 @@ body {
 }
 
 div {
+  text-align: center;
     float: left;
     font-size: 19pt;
 }

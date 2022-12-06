@@ -4,13 +4,14 @@
       <h1>카드 결제 방식을 선택해 주세요</h1>
       <div class="choose1">
         <button class="li-bt w-bt">
-          <!--<img alt="menu" src=".pic/" />-->
+          <img alt="menu" src="/src/components/pic/cu.png" />
         </button>
         <br><br>신용·체크카드(삼성페이)
       </div>
       <div class="choose2">
         <button class="li-bt w-bt">
-          <!--<img alt="menu" src=".pic/" />-->
+          <img alt="menu" src="public/assets/image/매장에서.png" />
+
         </button>
         <br><br>모바일 쿠폰
       </div>

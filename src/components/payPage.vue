@@ -20,13 +20,13 @@
                 <td><b>카드</b></td>
             </tr>
         </div><br>
-        <button class="li-bt w-bt">
+        <button class="li-bt w-bt" @click="goTo('/EXcardPage')">
           <img alt="menu" src="./pic/icon9.png" />
         </button>
         <br><br>신용·체크카드<br>(삼성페이) / 모바일 쿠폰
       </div>
     </div>
-    
+
   </body>
 </template>
 
@@ -36,6 +36,13 @@ export default {
   data(){
     return{
     }
+  },
+  methods: {
+    goTo:function (v){
+      this.$router.push(v);
+    },
+
+
   },
   components: {
   }
@@ -55,12 +62,12 @@ h1{
 /*버튼*/
 .choose1, .choose2 {
   float: left;
-  margin-top: 4%;
-  margin-left: 8%;
-  font-size: 10mm;
+  margin-top: 3%;
+  margin-left: 12%;
+  font-size: 14mm;
 }
 .choose1 {
-  margin-left: 23%;
+  margin-left: 22%;
 }
 .li-bt{
   position: relative;
