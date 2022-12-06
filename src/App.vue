@@ -4,7 +4,7 @@
 import { useRoute } from 'vue-router';
 
 export default {
-  name: 'startExPage',
+  name: 'App',
   components: {},
   setup()
   {

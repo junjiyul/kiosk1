@@ -52,6 +52,9 @@ export default {
 </script>
 
 <style>
+* {
+  text-align: center;
+}
 body {
   width: 100%;
   margin: 0px auto;

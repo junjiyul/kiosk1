@@ -33,6 +33,9 @@ export default {
 </script>
 
 <style scoped>
+* {
+  text-align: center;
+}
 body {
   width: 1280px;
   height: 800px;
